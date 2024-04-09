@@ -1,0 +1,132 @@
+{"level":"debug","time":"2024-04-10T01:08:54.029+0530","caller":"cmd/bin.go:106","msg":"cli os: windows, cli arch: amd64"}
+{"level":"debug","time":"2024-04-10T01:08:55.132+0530","caller":"cmd/bin.go:115","msg":"Upstream version details: {Name:cli Min:0.2.170 Max:0.2.175} "}
+{"level":"warn","time":"2024-04-10T01:08:55.133+0530","caller":"globalconfigvalidator/setup.go:35","msg":"Found user credentials in env and cli flag both, credentials in env will be ignored"}
+{"level":"warn","time":"2024-04-10T01:08:55.134+0530","caller":"globalconfigvalidator/setup.go:40","msg":"Found key credentials in env and cli flag both, credentials in env will be ignored"}
+{"level":"warn","time":"2024-04-10T01:08:57.216+0530","caller":"globalconfigvalidator/setup.go:35","msg":"Found user credentials in env and cli flag both, credentials in env will be ignored"}
+{"level":"warn","time":"2024-04-10T01:08:57.217+0530","caller":"globalconfigvalidator/setup.go:40","msg":"Found key credentials in env and cli flag both, credentials in env will be ignored"}
+{"level":"debug","time":"2024-04-10T01:08:57.217+0530","caller":"core/lifecycle.go:110","msg":"Setting environment"}
+{"level":"debug","time":"2024-04-10T01:08:57.217+0530","caller":"core/lifecycle.go:113","msg":"Parsing config"}
+{"level":"debug","time":"2024-04-10T01:08:57.217+0530","caller":"yamlconfigmanager/setup.go:548","msg":"Custom location for .hyperexecute.yaml specified. Using: yaml/maestro.yaml"}
+{"level":"debug","time":"2024-04-10T01:08:57.218+0530","caller":"yamlconfigmanager/setup.go:89","msg":"using hyperexecute config from : yaml/maestro.yaml"}
+{"level":"debug","time":"2024-04-10T01:08:58.048+0530","caller":"yamlconfigmanager/setup.go:2050","msg":"Autodetecting test type in files of path : D:\\maestro-sample-test-main\\maestro-sample-test-main"}
+{"level":"debug","time":"2024-04-10T01:08:58.048+0530","caller":"yamlconfigmanager/setup.go:400","msg":"Tunnel: false"}
+{"level":"info","time":"2024-04-10T01:08:58.048+0530","caller":"models/HypertestYamlConfig.go:592","msg":"\n\u001b[4m\u001b[1m\u001b[97mExecution Plan\u001b[0m\u001b[0m\u001b[0m"}
+{"level":"info","time":"2024-04-10T01:08:58.049+0530","caller":"models/HypertestYamlConfig.go:396","msg":"Mode:    \u001b[36mautosplit\u001b[0m"}
+{"level":"info","time":"2024-04-10T01:08:58.049+0530","caller":"models/HypertestYamlConfig.go:456","msg":"Runson:    \u001b[36mandroid\u001b[0m"}
+{"level":"info","time":"2024-04-10T01:08:58.049+0530","caller":"models/HypertestYamlConfig.go:464","msg":"Concurrency:    \u001b[36m1\u001b[0m"}
+{"level":"info","time":"2024-04-10T01:08:58.049+0530","caller":"models/HypertestYamlConfig.go:481","msg":"Framework:"}
+{"level":"info","time":"2024-04-10T01:08:58.049+0530","caller":"models/HypertestYamlConfig.go:482","msg":"    Name:    \u001b[36mraw\u001b[0m"}
+{"level":"info","time":"2024-04-10T01:08:58.049+0530","caller":"models/HypertestYamlConfig.go:514","msg":"    discoveryType:    \u001b[36m\u001b[0m"}
+{"level":"info","time":"2024-04-10T01:08:58.049+0530","caller":"models/HypertestYamlConfig.go:525","msg":"Report:    \u001b[36mdisabled\u001b[0m"}
+{"level":"info","time":"2024-04-10T01:08:58.049+0530","caller":"models/HypertestYamlConfig.go:605","msg":""}
+{"level":"debug","time":"2024-04-10T01:08:58.050+0530","caller":"filevalidator/setup.go:46","msg":"Warning: Checking data.json file in current directory, no dataJsonPath found in .hyperexecute.yaml"}
+{"level":"debug","time":"2024-04-10T01:08:58.050+0530","caller":"filevalidator/setup.go:50","msg":"Warning: data.json file doesn't exist"}
+{"level":"info","time":"2024-04-10T01:08:58.050+0530","caller":"raw/raw.go:109","msg":"Using app with unique id - lt://APP1016020161712691303218572"}
+{"level":"debug","time":"2024-04-10T01:08:58.050+0530","caller":"testdiscoverer/discoverer.go:176","msg":"Running discovery command: cat ./maestro-test/discover.txt"}
+{"level":"debug","time":"2024-04-10T01:08:58.050+0530","caller":"testdiscoverer/discoverer.go:81","msg":"Test Discovery Command: cat ./maestro-test/discover.txt"}
+{"level":"debug","time":"2024-04-10T01:08:58.259+0530","caller":"testdiscoverer/discoverer.go:90","msg":"Stdout: "}
+{"level":"debug","time":"2024-04-10T01:08:58.259+0530","caller":"testdiscoverer/discoverer.go:91","msg":"Stderr: 'cat' is not recognized as an internal or external command,\r\noperable program or batch file.\r\n"}
+{"level":"debug","time":"2024-04-10T01:08:58.259+0530","caller":"core/lifecycle.go:295","msg":"\u001b[91mERR::TSK::DSC\u001b[0m     Unable to run test discoverer exit status 1 - Error doing test discovery."}
+{"level":"debug","time":"2024-04-10T01:08:58.259+0530","caller":"core/lifecycle.go:55","msg":"Quit requested from main goroutine...."}
+{"level":"debug","time":"2024-04-10T01:08:58.259+0530","caller":"core/lifecycle.go:56","msg":"Waiting for the goroutines to exit"}
+{"level":"debug","time":"2024-04-10T01:08:58.259+0530","caller":"core/lifecycle.go:59","msg":"All lifecycle goroutines exited"}
+{"level":"debug","time":"2024-04-10T01:08:58.259+0530","caller":"cmd/bin.go:329","msg":"Exiting application due to error \u001b[91mERR::TSK::DSC\u001b[0m     Unable to run test discoverer exit status 1"}
+{"level":"debug","time":"2024-04-10T01:11:07.288+0530","caller":"cmd/bin.go:106","msg":"cli os: windows, cli arch: amd64"}
+{"level":"debug","time":"2024-04-10T01:11:08.144+0530","caller":"cmd/bin.go:115","msg":"Upstream version details: {Name:cli Min:0.2.170 Max:0.2.175} "}
+{"level":"warn","time":"2024-04-10T01:11:08.145+0530","caller":"globalconfigvalidator/setup.go:35","msg":"Found user credentials in env and cli flag both, credentials in env will be ignored"}
+{"level":"warn","time":"2024-04-10T01:11:08.145+0530","caller":"globalconfigvalidator/setup.go:40","msg":"Found key credentials in env and cli flag both, credentials in env will be ignored"}
+{"level":"warn","time":"2024-04-10T01:11:09.753+0530","caller":"globalconfigvalidator/setup.go:35","msg":"Found user credentials in env and cli flag both, credentials in env will be ignored"}
+{"level":"warn","time":"2024-04-10T01:11:09.754+0530","caller":"globalconfigvalidator/setup.go:40","msg":"Found key credentials in env and cli flag both, credentials in env will be ignored"}
+{"level":"debug","time":"2024-04-10T01:11:09.754+0530","caller":"core/lifecycle.go:110","msg":"Setting environment"}
+{"level":"debug","time":"2024-04-10T01:11:09.754+0530","caller":"core/lifecycle.go:113","msg":"Parsing config"}
+{"level":"debug","time":"2024-04-10T01:11:09.754+0530","caller":"yamlconfigmanager/setup.go:548","msg":"Custom location for .hyperexecute.yaml specified. Using: yaml/maestro.yaml"}
+{"level":"debug","time":"2024-04-10T01:11:09.755+0530","caller":"yamlconfigmanager/setup.go:89","msg":"using hyperexecute config from : yaml/maestro.yaml"}
+{"level":"debug","time":"2024-04-10T01:11:10.627+0530","caller":"yamlconfigmanager/setup.go:2050","msg":"Autodetecting test type in files of path : D:\\maestro-sample-test-main\\maestro-sample-test-main"}
+{"level":"debug","time":"2024-04-10T01:11:10.627+0530","caller":"yamlconfigmanager/setup.go:400","msg":"Tunnel: false"}
+{"level":"info","time":"2024-04-10T01:11:10.627+0530","caller":"models/HypertestYamlConfig.go:592","msg":"\n\u001b[4m\u001b[1m\u001b[97mExecution Plan\u001b[0m\u001b[0m\u001b[0m"}
+{"level":"info","time":"2024-04-10T01:11:10.628+0530","caller":"models/HypertestYamlConfig.go:396","msg":"Mode:    \u001b[36mautosplit\u001b[0m"}
+{"level":"info","time":"2024-04-10T01:11:10.628+0530","caller":"models/HypertestYamlConfig.go:456","msg":"Runson:    \u001b[36mandroid\u001b[0m"}
+{"level":"info","time":"2024-04-10T01:11:10.628+0530","caller":"models/HypertestYamlConfig.go:464","msg":"Concurrency:    \u001b[36m1\u001b[0m"}
+{"level":"info","time":"2024-04-10T01:11:10.629+0530","caller":"models/HypertestYamlConfig.go:481","msg":"Framework:"}
+{"level":"info","time":"2024-04-10T01:11:10.629+0530","caller":"models/HypertestYamlConfig.go:482","msg":"    Name:    \u001b[36mraw\u001b[0m"}
+{"level":"info","time":"2024-04-10T01:11:10.629+0530","caller":"models/HypertestYamlConfig.go:514","msg":"    discoveryType:    \u001b[36m\u001b[0m"}
+{"level":"info","time":"2024-04-10T01:11:10.629+0530","caller":"models/HypertestYamlConfig.go:525","msg":"Report:    \u001b[36mdisabled\u001b[0m"}
+{"level":"info","time":"2024-04-10T01:11:10.630+0530","caller":"models/HypertestYamlConfig.go:605","msg":""}
+{"level":"debug","time":"2024-04-10T01:11:10.630+0530","caller":"filevalidator/setup.go:46","msg":"Warning: Checking data.json file in current directory, no dataJsonPath found in .hyperexecute.yaml"}
+{"level":"debug","time":"2024-04-10T01:11:10.630+0530","caller":"filevalidator/setup.go:50","msg":"Warning: data.json file doesn't exist"}
+{"level":"info","time":"2024-04-10T01:11:10.630+0530","caller":"raw/raw.go:109","msg":"Using app with unique id - lt://APP1016020161712691303218572"}
+{"level":"debug","time":"2024-04-10T01:11:10.630+0530","caller":"testdiscoverer/discoverer.go:176","msg":"Running discovery command: cat ./maestro-test/discover.txt"}
+{"level":"debug","time":"2024-04-10T01:11:10.630+0530","caller":"testdiscoverer/discoverer.go:81","msg":"Test Discovery Command: cat ./maestro-test/discover.txt"}
+{"level":"debug","time":"2024-04-10T01:11:10.831+0530","caller":"testdiscoverer/discoverer.go:90","msg":"Stdout: "}
+{"level":"debug","time":"2024-04-10T01:11:10.831+0530","caller":"testdiscoverer/discoverer.go:91","msg":"Stderr: 'cat' is not recognized as an internal or external command,\r\noperable program or batch file.\r\n"}
+{"level":"debug","time":"2024-04-10T01:11:10.831+0530","caller":"core/lifecycle.go:295","msg":"\u001b[91mERR::TSK::DSC\u001b[0m     Unable to run test discoverer exit status 1 - Error doing test discovery."}
+{"level":"debug","time":"2024-04-10T01:11:10.831+0530","caller":"core/lifecycle.go:55","msg":"Quit requested from main goroutine...."}
+{"level":"debug","time":"2024-04-10T01:11:10.831+0530","caller":"core/lifecycle.go:56","msg":"Waiting for the goroutines to exit"}
+{"level":"debug","time":"2024-04-10T01:11:10.831+0530","caller":"core/lifecycle.go:59","msg":"All lifecycle goroutines exited"}
+{"level":"debug","time":"2024-04-10T01:11:10.831+0530","caller":"cmd/bin.go:329","msg":"Exiting application due to error \u001b[91mERR::TSK::DSC\u001b[0m     Unable to run test discoverer exit status 1"}
+{"level":"debug","time":"2024-04-10T01:11:57.446+0530","caller":"cmd/bin.go:106","msg":"cli os: windows, cli arch: amd64"}
+{"level":"debug","time":"2024-04-10T01:11:58.297+0530","caller":"cmd/bin.go:115","msg":"Upstream version details: {Name:cli Min:0.2.170 Max:0.2.175} "}
+{"level":"warn","time":"2024-04-10T01:11:58.298+0530","caller":"globalconfigvalidator/setup.go:35","msg":"Found user credentials in env and cli flag both, credentials in env will be ignored"}
+{"level":"warn","time":"2024-04-10T01:11:58.299+0530","caller":"globalconfigvalidator/setup.go:40","msg":"Found key credentials in env and cli flag both, credentials in env will be ignored"}
+{"level":"warn","time":"2024-04-10T01:11:59.910+0530","caller":"globalconfigvalidator/setup.go:35","msg":"Found user credentials in env and cli flag both, credentials in env will be ignored"}
+{"level":"warn","time":"2024-04-10T01:11:59.910+0530","caller":"globalconfigvalidator/setup.go:40","msg":"Found key credentials in env and cli flag both, credentials in env will be ignored"}
+{"level":"debug","time":"2024-04-10T01:11:59.911+0530","caller":"core/lifecycle.go:110","msg":"Setting environment"}
+{"level":"debug","time":"2024-04-10T01:11:59.911+0530","caller":"core/lifecycle.go:113","msg":"Parsing config"}
+{"level":"debug","time":"2024-04-10T01:11:59.911+0530","caller":"yamlconfigmanager/setup.go:548","msg":"Custom location for .hyperexecute.yaml specified. Using: yaml/maestro.yaml"}
+{"level":"debug","time":"2024-04-10T01:11:59.911+0530","caller":"yamlconfigmanager/setup.go:89","msg":"using hyperexecute config from : yaml/maestro.yaml"}
+{"level":"debug","time":"2024-04-10T01:12:00.582+0530","caller":"yamlconfigmanager/setup.go:2050","msg":"Autodetecting test type in files of path : D:\\maestro-sample-test-main\\maestro-sample-test-main"}
+{"level":"debug","time":"2024-04-10T01:12:00.582+0530","caller":"yamlconfigmanager/setup.go:400","msg":"Tunnel: false"}
+{"level":"info","time":"2024-04-10T01:12:00.582+0530","caller":"models/HypertestYamlConfig.go:592","msg":"\n\u001b[4m\u001b[1m\u001b[97mExecution Plan\u001b[0m\u001b[0m\u001b[0m"}
+{"level":"info","time":"2024-04-10T01:12:00.582+0530","caller":"models/HypertestYamlConfig.go:396","msg":"Mode:    \u001b[36mautosplit\u001b[0m"}
+{"level":"info","time":"2024-04-10T01:12:00.583+0530","caller":"models/HypertestYamlConfig.go:456","msg":"Runson:    \u001b[36mandroid\u001b[0m"}
+{"level":"info","time":"2024-04-10T01:12:00.583+0530","caller":"models/HypertestYamlConfig.go:464","msg":"Concurrency:    \u001b[36m1\u001b[0m"}
+{"level":"info","time":"2024-04-10T01:12:00.583+0530","caller":"models/HypertestYamlConfig.go:481","msg":"Framework:"}
+{"level":"info","time":"2024-04-10T01:12:00.584+0530","caller":"models/HypertestYamlConfig.go:482","msg":"    Name:    \u001b[36mraw\u001b[0m"}
+{"level":"info","time":"2024-04-10T01:12:00.584+0530","caller":"models/HypertestYamlConfig.go:514","msg":"    discoveryType:    \u001b[36m\u001b[0m"}
+{"level":"info","time":"2024-04-10T01:12:00.584+0530","caller":"models/HypertestYamlConfig.go:525","msg":"Report:    \u001b[36mdisabled\u001b[0m"}
+{"level":"info","time":"2024-04-10T01:12:00.584+0530","caller":"models/HypertestYamlConfig.go:605","msg":""}
+{"level":"debug","time":"2024-04-10T01:12:00.585+0530","caller":"filevalidator/setup.go:46","msg":"Warning: Checking data.json file in current directory, no dataJsonPath found in .hyperexecute.yaml"}
+{"level":"debug","time":"2024-04-10T01:12:00.585+0530","caller":"filevalidator/setup.go:50","msg":"Warning: data.json file doesn't exist"}
+{"level":"info","time":"2024-04-10T01:12:00.585+0530","caller":"raw/raw.go:109","msg":"Using app with unique id - lt://APP1016020161712691303218572"}
+{"level":"debug","time":"2024-04-10T01:12:00.586+0530","caller":"testdiscoverer/discoverer.go:176","msg":"Running discovery command: cat ./maestro-test/discover.txt"}
+{"level":"debug","time":"2024-04-10T01:12:00.586+0530","caller":"testdiscoverer/discoverer.go:81","msg":"Test Discovery Command: cat ./maestro-test/discover.txt"}
+{"level":"debug","time":"2024-04-10T01:12:00.790+0530","caller":"testdiscoverer/discoverer.go:90","msg":"Stdout: "}
+{"level":"debug","time":"2024-04-10T01:12:00.790+0530","caller":"testdiscoverer/discoverer.go:91","msg":"Stderr: 'cat' is not recognized as an internal or external command,\r\noperable program or batch file.\r\n"}
+{"level":"debug","time":"2024-04-10T01:12:00.790+0530","caller":"core/lifecycle.go:295","msg":"\u001b[91mERR::TSK::DSC\u001b[0m     Unable to run test discoverer exit status 1 - Error doing test discovery."}
+{"level":"debug","time":"2024-04-10T01:12:00.790+0530","caller":"core/lifecycle.go:55","msg":"Quit requested from main goroutine...."}
+{"level":"debug","time":"2024-04-10T01:12:00.790+0530","caller":"core/lifecycle.go:56","msg":"Waiting for the goroutines to exit"}
+{"level":"debug","time":"2024-04-10T01:12:00.790+0530","caller":"core/lifecycle.go:59","msg":"All lifecycle goroutines exited"}
+{"level":"debug","time":"2024-04-10T01:12:00.790+0530","caller":"cmd/bin.go:329","msg":"Exiting application due to error \u001b[91mERR::TSK::DSC\u001b[0m     Unable to run test discoverer exit status 1"}
+{"level":"debug","time":"2024-04-10T01:13:45.918+0530","caller":"cmd/bin.go:106","msg":"cli os: windows, cli arch: amd64"}
+{"level":"debug","time":"2024-04-10T01:13:46.783+0530","caller":"cmd/bin.go:115","msg":"Upstream version details: {Name:cli Min:0.2.170 Max:0.2.175} "}
+{"level":"warn","time":"2024-04-10T01:13:46.783+0530","caller":"globalconfigvalidator/setup.go:35","msg":"Found user credentials in env and cli flag both, credentials in env will be ignored"}
+{"level":"warn","time":"2024-04-10T01:13:46.784+0530","caller":"globalconfigvalidator/setup.go:40","msg":"Found key credentials in env and cli flag both, credentials in env will be ignored"}
+{"level":"warn","time":"2024-04-10T01:13:48.371+0530","caller":"globalconfigvalidator/setup.go:35","msg":"Found user credentials in env and cli flag both, credentials in env will be ignored"}
+{"level":"warn","time":"2024-04-10T01:13:48.372+0530","caller":"globalconfigvalidator/setup.go:40","msg":"Found key credentials in env and cli flag both, credentials in env will be ignored"}
+{"level":"debug","time":"2024-04-10T01:13:48.372+0530","caller":"core/lifecycle.go:110","msg":"Setting environment"}
+{"level":"debug","time":"2024-04-10T01:13:48.372+0530","caller":"core/lifecycle.go:113","msg":"Parsing config"}
+{"level":"debug","time":"2024-04-10T01:13:48.372+0530","caller":"yamlconfigmanager/setup.go:548","msg":"Custom location for .hyperexecute.yaml specified. Using: yaml/maestro.yaml"}
+{"level":"debug","time":"2024-04-10T01:13:48.372+0530","caller":"yamlconfigmanager/setup.go:89","msg":"using hyperexecute config from : yaml/maestro.yaml"}
+{"level":"debug","time":"2024-04-10T01:13:49.085+0530","caller":"yamlconfigmanager/setup.go:2050","msg":"Autodetecting test type in files of path : D:\\maestro-sample-test-main\\maestro-sample-test-main"}
+{"level":"debug","time":"2024-04-10T01:13:49.085+0530","caller":"yamlconfigmanager/setup.go:400","msg":"Tunnel: false"}
+{"level":"info","time":"2024-04-10T01:13:49.085+0530","caller":"models/HypertestYamlConfig.go:592","msg":"\n\u001b[4m\u001b[1m\u001b[97mExecution Plan\u001b[0m\u001b[0m\u001b[0m"}
+{"level":"info","time":"2024-04-10T01:13:49.086+0530","caller":"models/HypertestYamlConfig.go:396","msg":"Mode:    \u001b[36mautosplit\u001b[0m"}
+{"level":"info","time":"2024-04-10T01:13:49.086+0530","caller":"models/HypertestYamlConfig.go:456","msg":"Runson:    \u001b[36mandroid\u001b[0m"}
+{"level":"info","time":"2024-04-10T01:13:49.087+0530","caller":"models/HypertestYamlConfig.go:464","msg":"Concurrency:    \u001b[36m1\u001b[0m"}
+{"level":"info","time":"2024-04-10T01:13:49.087+0530","caller":"models/HypertestYamlConfig.go:481","msg":"Framework:"}
+{"level":"info","time":"2024-04-10T01:13:49.087+0530","caller":"models/HypertestYamlConfig.go:482","msg":"    Name:    \u001b[36mraw\u001b[0m"}
+{"level":"info","time":"2024-04-10T01:13:49.087+0530","caller":"models/HypertestYamlConfig.go:514","msg":"    discoveryType:    \u001b[36m\u001b[0m"}
+{"level":"info","time":"2024-04-10T01:13:49.087+0530","caller":"models/HypertestYamlConfig.go:525","msg":"Report:    \u001b[36mdisabled\u001b[0m"}
+{"level":"info","time":"2024-04-10T01:13:49.087+0530","caller":"models/HypertestYamlConfig.go:605","msg":""}
+{"level":"debug","time":"2024-04-10T01:13:49.088+0530","caller":"filevalidator/setup.go:46","msg":"Warning: Checking data.json file in current directory, no dataJsonPath found in .hyperexecute.yaml"}
+{"level":"debug","time":"2024-04-10T01:13:49.088+0530","caller":"filevalidator/setup.go:50","msg":"Warning: data.json file doesn't exist"}
+{"level":"info","time":"2024-04-10T01:13:49.088+0530","caller":"raw/raw.go:109","msg":"Using app with unique id - lt://APP1016020161712691303218572"}
+{"level":"debug","time":"2024-04-10T01:13:49.088+0530","caller":"testdiscoverer/discoverer.go:176","msg":"Running discovery command: cat ./maestro-test/discover.txt"}
+{"level":"debug","time":"2024-04-10T01:13:49.088+0530","caller":"testdiscoverer/discoverer.go:81","msg":"Test Discovery Command: cat ./maestro-test/discover.txt"}
+{"level":"debug","time":"2024-04-10T01:13:49.286+0530","caller":"testdiscoverer/discoverer.go:90","msg":"Stdout: "}
+{"level":"debug","time":"2024-04-10T01:13:49.286+0530","caller":"testdiscoverer/discoverer.go:91","msg":"Stderr: 'cat' is not recognized as an internal or external command,\r\noperable program or batch file.\r\n"}
+{"level":"debug","time":"2024-04-10T01:13:49.286+0530","caller":"core/lifecycle.go:295","msg":"\u001b[91mERR::TSK::DSC\u001b[0m     Unable to run test discoverer exit status 1 - Error doing test discovery."}
+{"level":"debug","time":"2024-04-10T01:13:49.286+0530","caller":"core/lifecycle.go:55","msg":"Quit requested from main goroutine...."}
+{"level":"debug","time":"2024-04-10T01:13:49.286+0530","caller":"core/lifecycle.go:56","msg":"Waiting for the goroutines to exit"}
+{"level":"debug","time":"2024-04-10T01:13:49.286+0530","caller":"core/lifecycle.go:59","msg":"All lifecycle goroutines exited"}
+{"level":"debug","time":"2024-04-10T01:13:49.286+0530","caller":"cmd/bin.go:329","msg":"Exiting application due to error \u001b[91mERR::TSK::DSC\u001b[0m     Unable to run test discoverer exit status 1"}
